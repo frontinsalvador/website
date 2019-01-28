@@ -1,0 +1,96 @@
+/* Front In Salvador */
+
+// Variables
+$black: #1c1d1d;
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	line-height: normal;
+	font-size: 100%;
+	background-color: $black;
+	color: white;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+.hero{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.logo{
+	max-width: 300px;
+	width: 100%;
+	margin: 0 auto 2em;
+}
+
+.btn{
+	border-radius: 0;
+}
+
+.btn-fissa{
+	background-color: rgba(255,255,255,.8);
+	border-color: white;
+	color: $black;
+	position: relative;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	&:hover, &:focus{
+		background-color: white;
+		border-color: white;
+		color: $black;
+	}
+	&:focus{
+		box-shadow: 0 0 0 0.2rem rgba(191, 142, 255, 0.39);
+	}
+}
+
+.footer{
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	.copyright{
+		margin: 10px 0;
+		display: block;
+	}
+	.btn{
+		margin: 0 5px;
+		text-transform: uppercase;
+	}
+}
+
+.social-icons{
+	a{
+		display: inline-block;
+		margin: 0 2px;
+		opacity: .8;
+		&:hover{
+			opacity: 1;
+		}
+	}
+	img{
+		max-width: 20px;
+		width: 100%;
+	}
+}
