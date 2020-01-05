@@ -1,2 +1,2 @@
-# Front In Salvador 2019
+# Front In Salvador
 A maior conferência da Bahia voltada para desenvolvedores Front-End
